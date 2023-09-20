@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="UI test" verbose="1" >
+    <test name="Function Testing">
+        <classes>
+            <class name="ui.GroupDemoTest"/>
+            <class name="ui.LoginTest"/>
+            <class name="ui.GroupDemoTest2"/>
+            <class name="ui.SkipDemoTest"/>
+        </classes>
+    </test>
+</suite>
